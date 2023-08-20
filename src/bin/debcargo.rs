@@ -1,11 +1,11 @@
 use ansi_term::Colour::Red;
 use clap::{crate_version, AppSettings, Parser};
 
-use debcargo::crates::CrateInfo;
-use debcargo::debian::DebInfo;
-use debcargo::errors::Result;
-use debcargo::package::*;
-use debcargo::{
+use debcargo_vendor::crates::CrateInfo;
+use debcargo_vendor::debian::DebInfo;
+use debcargo_vendor::errors::Result;
+use debcargo_vendor::package::*;
+use debcargo_vendor::{
     build_order::{build_order, BuildOrderArgs},
     crates::invalidate_crates_io_cache,
 };

@@ -1,13 +1,12 @@
 [package]
-name = "debcargo"
-version = "2.6.1-alpha.0"
+name = "debcargo-vendor"
+version = "0.1.0"
 authors = [
- "Josh Triplett <josh@joshtriplett.org>",
- "Ximin Luo <infinity0@debian.org>",
- "Vasudev Kamath <vasudev@copyninja.info>"]
+ "Jacob Greenleaf <jacob@stormforge.xyz>"
+ ]
 license = "MIT/Apache-2.0"
-repository = "https://salsa.debian.org/rust-team/debcargo"
-description = "Create a Debian package from a Cargo crate."
+repository = "https://github.com/stormforge-llc/debcargo-vendor"
+description = "Create a Debian package from a Cargo crate using vendoring"
 edition = "2021"
 rust-version = "1.58"
 

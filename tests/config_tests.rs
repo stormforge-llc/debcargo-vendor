@@ -1,6 +1,6 @@
 extern crate debcargo;
 
-use debcargo::config::{Config, PackageKey};
+use debcargo_vendor::config::{Config, PackageKey};
 use std::path::Path;
 
 #[test]
